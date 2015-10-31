@@ -13,7 +13,7 @@ function respond() {
                 "MIA","BUF","SF","WAS","NYJ","TB"]
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
-    postMessage(FUCK YOU);
+    postMessage("FUCK YOU");
     this.res.end();
   } 
   else if(request.text && botRegexDL.test(request.text)) {
